@@ -1,29 +1,20 @@
 
-body{
-    background-color: rgb(14, 5, 37);
-}
 .profile_image{
     width: 15%;
     border-radius: 20px;
     border-color:grey;
     border-style: hidden;
-    margin-left: auto;
-    margin-right: auto;
     padding-top: 10px;
-
 }
 .profiletext{
     color: white;
-    width: 30%;
     text-align: center;
     justify-content: center;
     font-family: arial;
-    margin-left: auto;
-    margin-right: auto;
 }
 .wrapper{
     display: flex;
-    flex-wrap: wrap;
+    text-align: center;
     justify-content: center;
     height:90%;
     column-gap: 10px;
@@ -35,11 +26,14 @@ body{
     border-style: solid;
     border-color: rgb(255, 255, 255);
     backdrop-filter: blur(15px);
-    width: 85%;
+    width: 80%;
     height: 100%;
     margin: 5px;
 }
-.geraltext{
+ul{
     color: white;
     font-family: Arial;
+    font-size: 25px;
+    list-style-type: none;
+    text-align: center;
 }
