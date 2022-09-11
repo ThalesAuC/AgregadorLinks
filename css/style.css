@@ -1,4 +1,6 @@
-
+body{
+    background-color:rgb(51, 0, 102);
+}
 .profile_image{
     width: 15%;
     border-radius: 20px;
@@ -32,23 +34,28 @@
     margin: 5px;
     left: 50%;
 }
-ul{
+.links{
     color: white;
     font-family: Arial;
-    font-size: 30px;
     list-style-type: none;
     left: 50%;
     text-decoration: none;
+    text-align: center;
+    display: inline-block;
+}
+.link:hover{
+    transition: 0.5s;
+    transform: scale(1.5);
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    color: black;
 }
 a{
     text-decoration: none;
     align-items: center;
+    color: blue
 }
 a:visited{
     text-decoration: none;
-}
-li:hover{
-    transition: 0.5s;
-    transform: scale(1.5);
-    
 }
