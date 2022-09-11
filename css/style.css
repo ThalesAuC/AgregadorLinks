@@ -19,6 +19,7 @@
     height:90%;
     column-gap: 10px;
     padding: 5px;
+    left: 50%;
 }
 .geralbox{
     text-align:center;
@@ -29,11 +30,25 @@
     width: 80%;
     height: 100%;
     margin: 5px;
+    left: 50%;
 }
 ul{
     color: white;
     font-family: Arial;
-    font-size: 25px;
+    font-size: 30px;
     list-style-type: none;
-    text-align: center;
+    left: 50%;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    align-items: center;
+}
+a:visited{
+    text-decoration: none;
+}
+li:hover{
+    transition: 0.5s;
+    transform: scale(1.5);
+    
 }
