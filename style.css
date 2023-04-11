@@ -1,0 +1,61 @@
+body{
+    background-color: black;
+    background: url('assets/bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.5); 
+}
+.profile_image{
+    width: 30%;
+    border-radius: 10%;
+    border-color:grey;
+    border-style: hidden;
+    max-width: 100%;
+    height: auto;  
+}
+.profiletext{
+    color: white;
+    text-align: center;
+    font-family: arial;
+}
+.geralbox {
+    text-align: center;
+    border-radius: 15px;
+    border-color: rgb(255, 255, 255);
+    width: 60%;
+    margin: auto;
+    padding: 5%;
+    margin-top: 50px;
+    backdrop-filter: blur(20px);
+    color: rgba(0, 0, 0, 1);
+    background-color: rgba(255, 255, 255, 0.09);
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.4);
+  }
+  
+
+.links{
+    color: white;
+    font-family: Arial;
+    font-size: small;
+    list-style-type: none;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    margin: 1.5%;
+}
+.link:hover{
+    transition: 0.5s;
+    transform: scale(1.5);
+    background-color:black;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+}
+a{
+    text-decoration: none;
+    align-items: center;
+}
+a:visited{
+    color: white;
+    text-decoration:none;
+}
