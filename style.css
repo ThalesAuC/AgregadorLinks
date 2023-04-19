@@ -17,7 +17,7 @@ body{
     text-align: center;
     font-family: arial;
 }
-.geralbox {
+.MainContent {
     text-align: center;
     border-radius: 15px;
     border-color: rgb(255, 255, 255);
@@ -30,7 +30,7 @@ body{
     background-color: rgba(255, 255, 255, 0.09);
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.4);
   }
-.links{
+.LinkList{
     color: white;
     font-family: Arial;
     font-size: small;
@@ -40,7 +40,7 @@ body{
     display: inline-block;
     margin: 1.5%;
 }
-.link:hover{
+.LinkIten:hover{
     transition: 0.5s;
     transform: scale(1.5);
     background-color:black;
