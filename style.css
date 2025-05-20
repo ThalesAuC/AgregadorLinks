@@ -3,7 +3,6 @@ body{
     background: url('assets/bg.jpg') no-repeat center center fixed;
     background-size: cover;
     background-color: rgba(255, 255, 255, 0.5);
-    font-family: "Nunito", sans-serif;
 }
 .profile_image{
     width: 30%;
@@ -16,7 +15,7 @@ body{
 .profiletext{
     color: white;
     text-align: center;
-    font-family: arial;
+    font-family: "Nunito", sans-serif;
 }
 .MainContent {
     text-align: center;
