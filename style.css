@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
 body{
     background-color: black;
     background: url('assets/bg.jpg') no-repeat center center fixed;
@@ -19,6 +21,7 @@ body{
 }
 .MainContent {
     text-align: center;
+    font-family: "Nunito", sans-serif;
     border-radius: 15px;
     border-color: rgb(255, 255, 255);
     width: 60%;
@@ -32,7 +35,7 @@ body{
   }
 .LinkList{
     color: white;
-    font-family: Arial;
+    font-family: "Nunito", sans-serif;
     font-size: small;
     list-style-type: none;
     text-decoration: none;
