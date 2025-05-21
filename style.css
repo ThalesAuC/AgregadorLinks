@@ -43,7 +43,12 @@ body{
     display: inline-block;
     margin: 1.5%;
 }
-.LinkIten:hover{
+li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+li:hover{
     transition: 0.5s;
     transform: scale(1.5);
     background-color:black;
