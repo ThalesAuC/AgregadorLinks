@@ -19,7 +19,7 @@
 
 body {
     font-family: var(--font-main);
-    background-color: var(--bg-gradient-1);
+    background-color: transparent;
     color: var(--text-primary);
     min-height: 100vh;
     display: flex;
