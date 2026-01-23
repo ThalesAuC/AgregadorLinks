@@ -1,9 +1,37 @@
+# Link Aggregator & Digital Portfolio
 
-# Agregador de Links
-landing page inspirado em linktree
-https://thalesauc.github.io/AgregadorLinks/ <br> <br> <br>
-![Como ficou](deploy.png)
+![Preview](deploy.png)
 
-o projeto foi realizado utilizando HTML e CSS puros, de maneira a deixar o site responsivo em diversos tamanhos de tela.
-<br>
-cada um dos itens da lista é um link clicavel que direciona para alguma pagina incluindo o curriculo em pdf que abre no navegador do usuário.
+Um portfólio e agregador de links moderno, projetado com estética premium "Glassmorphism" e fundo interativo, servindo como cartão de visita digital e currículo online.
+
+🔗 **Demo Live:** [https://thalesauc.github.io/AgregadorLinks/](https://thalesauc.github.io/AgregadorLinks/)
+
+## ✨ Funcionalidades
+
+- **Design Premium**: Interface moderna com efeito Glassmorphism (vidro fosco).
+- **Fundo Interativo**: "Nuvem de Partículas" (Particles Network) desenvolvida com HTML5 Canvas que reage ao movimento do mouse.
+- **Modo Escuro**: Paleta de cores imersiva em "Deep Dark Blue" para destaque do conteúdo.
+- **Responsividade**: Layout totalmente adaptável para mobile, tablet e desktop.
+- **Micro-interações**: Animações suaves de hover nos botões e entrada de elementos.
+- **Páginas**:
+  - `index.html`: Links de contato, redes sociais e download de currículo.
+  - `about_me.html`: Biografia detalhada com styling consistente.
+
+## 🛠 Tecnologias Utilizadas
+
+- **HTML5**: Estrutura semântica e acessível.
+- **CSS3**: Layout Flexbox, Variáveis CSS, Backdrop-filter e Animações.
+- **JavaScript**: Lógica de renderização do Canvas para o efeito de partículas (`particles.js`).
+- **FontAwesome**: Ícones vetoriais.
+- **Google Fonts**: Tipografia `Outfit`.
+
+## 🚀 Como Executar Localmente
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/ThalesAuC/AgregadorLinks.git
+   ```
+2. Abra o arquivo `index.html` em seu navegador.
+
+---
+Desenvolvido por **Thales Augusto**

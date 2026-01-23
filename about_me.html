@@ -1,12 +1,114 @@
 <!DOCTYPE html>
-<header>
-    <title>Sobre_mim.Docx</title>
-</header>
-<h1>Sobre Mim</h1>
-<p> Entusiasta de software Open Source utilizo meus conhecimentos no desenvolvimento de software,
-    montagem/manutenção de computadores e suporte técnico a clientes.<br>
-    Aplicado e curioso estou constantemente em busca de aprimoramento, adoro aprender algo novo e gosto de tentar fazer as coisas de maneira diferente 
-    para testar os metodos possiveis, gosto de entender o comportamento de computadores e softwares de maneira a tentar entender o maximo e chegar a sua completude.<br>
-    Atualmente estou estudando algumas linguagens de programação sendo a mais recente Rust, devido ao grande potencial de substituição do C/C++ por Rust.
-    Meus hobbies incluem games competitivos (marvel rivals, Overwatch e afins), Games de realidade virtual (BeatSaber, HalfLife Alix e VRChat), manutenção e upgrade de
-    meus computadores, alem de me interar sobre o que ta acontecendo no mundo da tecnologia em geral.</p>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Mim | Thales</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        .about-text {
+            text-align: left;
+            line-height: 1.6;
+            color: var(--text-secondary);
+            margin-bottom: 1.5rem;
+            font-size: 1rem;
+        }
+
+        .about-text p {
+            margin-bottom: 1rem;
+        }
+
+        .back-btn {
+            display: inline-flex;
+            align-items: center;
+            color: var(--accent-color);
+            text-decoration: none;
+            font-weight: 500;
+            margin-bottom: 1.5rem;
+            transition: transform 0.3s;
+        }
+
+        .back-btn:hover {
+            transform: translateX(-5px);
+        }
+
+        .back-btn i {
+            margin-right: 8px;
+        }
+
+        .skills-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 1rem;
+            justify-content: center;
+        }
+
+        .tag {
+            background: rgba(56, 189, 248, 0.1);
+            color: var(--accent-color);
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            border: 1px solid rgba(56, 189, 248, 0.2);
+        }
+    </style>
+</head>
+
+<body>
+    <canvas id="bg-canvas"></canvas>
+    <main class="card-container">
+        <div style="text-align: left;">
+            <a href="index.html" class="back-btn">
+                <i class="fa-solid fa-arrow-left"></i> Voltar
+            </a>
+        </div>
+
+        <header class="profile-header">
+            <h1 class="profile-name">Sobre Mim</h1>
+            <div
+                style="width: 60px; height: 4px; background: var(--accent-color); margin: 0 auto 1.5rem; border-radius: 2px;">
+            </div>
+        </header>
+
+        <div class="about-text">
+            <p>
+                Olá! Sou um entusiasta de software Open Source e tecnologia. Utilizo meus conhecimentos no
+                desenvolvimento de software,
+                montagem e manutenção de computadores, além de oferecer suporte técnico especializado.
+            </p>
+            <p>
+                Sou aplicado e curioso, constantemente em busca de aprimoramento. Adoro aprender coisas novas e explorar
+                métodos diferentes
+                para resolver problemas. Meu objetivo é entender o comportamento de computadores e softwares em
+                profundidade.
+            </p>
+            <p>
+                Atualmente, estou focado em estudar novas linguagens, com destaque para <strong>Java</strong> e seu
+                potencial no desenvolvimento de sistemas.
+            </p>
+            <p>
+                Meus hobbies incluem games competitivos (Marvel Rivals, Overwatch), realidade virtual (BeatSaber,
+                Half-Life: Alyx, VRChat)
+                e hardware enthusiast (manutenção e upgrade de setups).
+            </p>
+        </div>
+
+        <div class="skills-tags">
+            <span class="tag">Open Source</span>
+            <span class="tag">Java</span>
+            <span class="tag">Hardware</span>
+            <span class="tag">Support</span>
+            <span class="tag">VR Gaming</span>
+        </div>
+
+    </main>
+    <script src="particles.js"></script>
+</body>
+
+</html>

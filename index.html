@@ -1,26 +1,73 @@
 <!DOCTYPE html>
-<html>
-  <header>
-    <link rel="stylesheet" type="text/css" href="style.css"/>
-    <meta charset="utf-8">
-  </header>
-  <head>
-    <title>Thales</title>
-  </head>  
-  <body>
-      <div class="MainContent">
-        <img class="profile_image" src="assets/thales.jpg">
-        <h1 class="profiletext">Thales Augusto Contratres</h1>
-        <h2 class="profiletext">Desenvolvimento de software, Manutenção de computadores</h2>
-          <div class="LinkList">
-            <li><a target="_blank" href="about_me.html">Sobre Mim</a></li>
-            <li><a target="_blank" href="https://github.com/ThalesAuC">GitHub</a></li>
-            <li><a target="_blank" href="https://www.linkedin.com/in/thalescontratres/">LinkedIn</a></li>
-            <li><a target="_blank" href="assets/thales.pdf">Curriculo</a></li>
-            <li><a target="_blank" href="https://www.instagram.com/thundertechpcs">Montagem e Manutenções</a></li>
+<html lang="pt-br">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thales | Desenvolvedor</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
 
-          </div>
-        </div>
-  </body>
+<body>
+  <canvas id="bg-canvas"></canvas>
+  <main class="card-container">
+    <header class="profile-header">
+      <div class="image-wrapper">
+        <img class="profile_image" src="assets/thales.png" alt="Foto de Perfil de Thales">
+      </div>
+      <h1 class="profile-name">Thales Augusto</h1>
+      <h2 class="profile-role">Desenvolvedor de Software <br> & Tech Enthusiast</h2>
+    </header>
+
+    <ul class="link-list">
+      <li>
+        <a href="about_me.html" class="link-btn">
+          <i class="fa-solid fa-user"></i>
+          <span>Sobre Mim</span>
+          <i class="fa-solid fa-chevron-right arrow"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/ThalesAuC" target="_blank" class="link-btn">
+          <i class="fa-brands fa-github"></i>
+          <span>GitHub</span>
+          <i class="fa-solid fa-arrow-up-right-from-square arrow"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/thalescontratres/" target="_blank" class="link-btn">
+          <i class="fa-brands fa-linkedin"></i>
+          <span>LinkedIn</span>
+          <i class="fa-solid fa-arrow-up-right-from-square arrow"></i>
+        </a>
+      </li>
+      <li>
+        <a href="assets/thales.pdf" target="_blank" class="link-btn">
+          <i class="fa-solid fa-file-pdf"></i>
+          <span>Currículo</span>
+          <!--<i class="fa-solid fa-download arrow"></i>-->
+          <span>INDISPONÍVEL</span>
+          <i class="fa-solid fa-circle-exclamation"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/thundertechpcs" target="_blank" class="link-btn">
+          <i class="fa-brands fa-instagram"></i>
+          <span>ThunderTech PCs</span>
+          <i class="fa-solid fa-arrow-up-right-from-square arrow"></i>
+        </a>
+      </li>
+    </ul>
+
+    <footer class="card-footer">
+      <p>© 2026 Thales Augusto</p>
+    </footer>
+  </main>
+  <script src="particles.js"></script>
+</body>
+
 </html>
