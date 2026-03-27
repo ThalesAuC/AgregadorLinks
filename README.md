@@ -24,14 +24,5 @@ Um portfólio e agregador de links moderno, projetado com estética premium "Gla
 - **JavaScript**: Lógica de renderização do Canvas para o efeito de partículas (`particles.js`).
 - **FontAwesome**: Ícones vetoriais.
 - **Google Fonts**: Tipografia `Outfit`.
-
-## 🚀 Como Executar Localmente
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/ThalesAuC/AgregadorLinks.git
-   ```
-2. Abra o arquivo `index.html` em seu navegador.
-
 ---
 Desenvolvido por **Thales Augusto**
